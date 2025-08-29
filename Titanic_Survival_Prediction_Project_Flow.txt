@@ -1,0 +1,26 @@
+Titanic Survival Prediction with XAI – Project Flow
+
+This project is a web-based application that predicts Titanic passenger survival and provides clear explanations for each prediction. It follows a structured workflow combining data processing, prediction, explanation, and visualization.
+
+Workflow
+
+1. Data Preparation
+   - Titanic dataset is cleaned, transformed, and feature-engineered to create processed training and testing files.
+
+2. Model Training
+   - A machine learning model is trained on the processed data and saved for reuse.
+
+3. Prediction & Explanation
+   - For a given passenger, the system predicts survival chances.
+   - Explainable AI (XAI) techniques generate human-readable explanations for why the passenger was predicted to survive or not.
+
+4. Web Application Flow
+   - User enters Passenger ID.
+   - The system retrieves passenger details from the dataset.
+   - The trained model makes a prediction and provides explanation.
+   - Results are displayed on the web page.
+
+5. User Interface
+   - Displays passenger details, prediction results, and explanations.
+   - Includes dynamic visuals and animations for an engaging experience.
+   - Ensures accessibility by making results scrollable if long.
